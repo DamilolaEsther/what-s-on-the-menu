@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's on the menu?</title>
+</head>
+
+
+<body>
+    
+
+    <div class = "navi">
+        <nav>
+            <header>
+                <ul>
+                    <li><a id = "one" href="index.html" target="_blank">Home</a></li>
+                    <li><a id = "two" href="https://www.google.com/" target="_blank">About</a></li>
+                    <li><a id = "three" href="https://www.google.com/" target="_blank">Contact</a></li>
+                </ul>
+            </header>
+        </nav>
+    </div>
+
+
+            <script>
+                
+                let colorForBackground =  document.querySelector("body");
+                    colorForBackground.style.backgroundColor = "Red";
+
+                let navBackground = document.querySelector("nav");
+                    navBackground.style.backgroundColor = "DarkGreen";
+                    navBackground.style.float = "left";
+                    navBackground.style.fontFamily = "Arial Helvetica";
+
+                let listStyle = document.querySelector ("header ul");
+                    listStyle.style.listStyle = "none";
+                    listStyle.style.margin = "0";
+                    listStyle.style.padding = "0";
+                    listStyle.style.overflow = "hidden";
+
+                let secondLI = document.querySelector ("#one");
+                    secondLI.style.display = "inline-block";
+                    secondLI.style.textAlign = "center";
+                    secondLI.style.padding = "25px";
+                    secondLI.style.textDecoration = "none";
+                    secondLI.style.color = "black";
+                    
+
+                    let secondLI1 = document.querySelector ("#two");
+                    secondLI1.style.display = "inline-block";
+                    secondLI1.style.textAlign = "center";
+                    secondLI1.style.padding = "25px";
+                    secondLI1.style.textDecoration = "none";
+                    secondLI1.style.color = "black";
+
+                    let secondLI2 = document.querySelector ("#three");
+                    secondLI2.style.display = "inline-block";
+                    secondLI2.style.textAlign = "center";
+                    secondLI2.style.padding = "25px";
+                    secondLI2.style.textDecoration = "none";
+                    secondLI2.style.color = "black";
+
+
+                let thirdLI = document.querySelector ("li:last-child");
+                    thirdLI.style.borderRight = "none";
+                    
+                let hoverOver = document.querySelector ("a:hover");
+                    hoverOver.style.color = "blue";
+
+            </script>
+
+
+</body>
+</html>
